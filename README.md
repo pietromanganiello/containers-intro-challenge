@@ -43,8 +43,8 @@ The application tracks how many times the /count endpoint is visited.
 docker-compose up -d --build
 
 Access:
-http://localhost:5000
-http://localhost:5000/count
+http://72.61.201.12:5000
+http://72.61.201.12:5000/count
 
 ---
 
