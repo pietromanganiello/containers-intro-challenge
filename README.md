@@ -142,9 +142,13 @@ This avoids hardcoding values and makes the app more flexible
 docker-compose up -d --build --scale web=3
 ```
 
-Access:
 
+Access the application
+
+Home page:
 http://72.61.201.12:5000
+
+Counter endpoint:
 http://72.61.201.12:5000/count
 
 ---
