@@ -190,15 +190,17 @@ http://72.61.201.12:5000/count
 
 ## Reflection
 
-This project helped me understand how real systems are structured.
+This project helped me move from just running containers to actually understanding how systems are structured.
 
-Instead of running everything in one container, each component has a clear role:
+Instead of putting everything into one container, each component has a clear responsibility:
 
-* Flask handles logic
-* Redis handles data
-* NGINX handles traffic
+- Flask handles the application logic
+- Redis handles shared state
+- NGINX handles traffic routing
 
-This separation makes the system more scalable and easier to manage.
+This separation makes the system easier to scale, debug, and extend.
+
+It also gave me a clearer understanding of how real-world backend systems are designed.
 
 ---
 
