@@ -143,14 +143,9 @@ docker-compose up -d --build --scale web=3
 ```
 
 Access:
-<<<<<<< HEAD
+
 http://72.61.201.12:5000
 http://72.61.201.12:5000/count
-=======
-
-* http://72.61.201.12:5000
-* http://72.61.201.12:5000/count
->>>>>>> 5bed157 (Improve README and add nginx load balancer config)
 
 ---
 
