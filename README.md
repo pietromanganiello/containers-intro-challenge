@@ -171,9 +171,9 @@ http://72.61.201.12:5000/count
 
 ## Example Output
 
-Count: 8
-Count: 9
-Count: 10
+* Count: 8
+* Count: 9
+* Count: 10
 
 ---
 
